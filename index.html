@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API - DESAFÍO</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Conversor de Monedas Nacional</h1>
+        <div class="input-group">
+            <p>Pesos CLP</p>
+            <input type="number" min="0" id="input-box" placeholder="Monto a convertir...">
+        <div class="select-group">
+            <p>Moneda a convertir</p>
+            <select id="select-box"></select>
+        </div>
+        <button type="button" id="btn-search">Convertir</button>
+        <p id="result"></p>
+        <div class="container-chart">
+            <canvas id="chart" hidden></canvas>
+        </div>
+        
+    </div>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
